@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    height: 2rem;
+    width: 8rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: #000;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
