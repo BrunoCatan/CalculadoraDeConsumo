@@ -1,10 +1,16 @@
 import styles from "./Input.module.css";
 
-const Input = ({ for_, type, place }) => {
+const Input = (props) => {
     return (
         <form className={styles.container}>
-            <label htmlFor={for_}>{place}</label>
-            <input className={styles.input} type={type} />
+            <label htmlFor={props.htmlFor}>{props.label}</label>
+            <input
+                placeholder={props.placeholder}
+                className={styles.input}
+                value={props.value}
+                onChange={props.onChange}
+                type={props.type}
+            />
         </form>
     );
 };

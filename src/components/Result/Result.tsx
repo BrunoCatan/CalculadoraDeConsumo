@@ -1,10 +1,11 @@
 import styles from "./Result.module.css";
 
-const Result = () => {
+const Result = ({ value }) => {
     return (
-        <div className={styles.container}>
-            <p className={styles.p}>Resultado: 15,15</p>
-        </div>
+        <form className={styles.container}>
+            <label>Resultado:</label>
+            <input className={styles.input} value={value} disabled />
+        </form>
     );
 };
 

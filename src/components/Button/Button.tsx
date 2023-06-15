@@ -1,9 +1,11 @@
 import styles from "./Button.module.css";
 
-const Button = () => {
+const Button = ({ onClick }) => {
     return (
         <div className={styles.container}>
-            <button className={styles.button}>Calcular</button>
+            <button onClick={onClick} className={styles.button}>
+                Calcular
+            </button>
         </div>
     );
 };
