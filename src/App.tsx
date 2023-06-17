@@ -7,8 +7,8 @@ import Result from "./components/Result/Result";
 import Title from "./components/Title/Title";
 
 function App() {
-    const [input1, setInput1] = useState("");
-    const [input2, setInput2] = useState("");
+    const [input1, setInput1] = useState<string>("");
+    const [input2, setInput2] = useState<string>("");
     const [result, setResult] = useState(0);
 
     const handleInput1Change = (event: any) => {
