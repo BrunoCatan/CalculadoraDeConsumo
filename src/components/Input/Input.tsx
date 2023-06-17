@@ -1,6 +1,6 @@
 import styles from "./Input.module.css";
 
-const Input = (props) => {
+const Input = (props: any) => {
     return (
         <form className={styles.container}>
             <label htmlFor={props.htmlFor}>{props.label}</label>

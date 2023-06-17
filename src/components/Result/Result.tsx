@@ -1,6 +1,6 @@
 import styles from "./Result.module.css";
 
-const Result = ({ value }) => {
+const Result = ({ value }: any) => {
     return (
         <form className={styles.container}>
             <label>Resultado:</label>
