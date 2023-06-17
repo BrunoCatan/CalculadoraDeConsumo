@@ -7,22 +7,25 @@ import Result from "./components/Result/Result";
 import Title from "./components/Title/Title";
 
 function App() {
-    const [input1, setInput1] = useState<string>("");
-    const [input2, setInput2] = useState<string>("");
-    const [result, setResult] = useState(0);
+    const [input1, setInput1] = useState<number | "">("");
+    const [input2, setInput2] = useState<number | "">("");
+    const [result, setResult] = useState<number>(0);
 
-    const handleInput1Change = (event: any) => {
-        setInput1(event.target.value);
+    const handleInput1Change = (event: React.ChangeEvent<HTMLInputElement>) => {
+        const value = parseInt(event.target.value, 10);
+        setInput1(value || "");
     };
 
-    const handleInput2Change = (event: any) => {
-        setInput2(event.target.value);
+    const handleInput2Change = (event: React.ChangeEvent<HTMLInputElement>) => {
+        const value = parseInt(event.target.value, 10);
+        setInput2(value || "");
     };
 
     const handleSum = () => {
-        const sum = input1 / input2;
-
-        setResult(sum);
+        if (input1 !== "" && input2 !== "") {
+            const sum = input1 / input2;
+            setResult(sum);
+        }
     };
 
     return (
