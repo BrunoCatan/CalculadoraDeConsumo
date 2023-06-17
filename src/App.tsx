@@ -12,11 +12,11 @@ function App() {
     const [result, setResult] = useState(0);
 
     const handleInput1Change = (event: any) => {
-        setInput1(Number(event.target.value));
+        setInput1(event.target.value);
     };
 
     const handleInput2Change = (event: any) => {
-        setInput2(Number(event.target.value));
+        setInput2(event.target.value);
     };
 
     const handleSum = () => {
