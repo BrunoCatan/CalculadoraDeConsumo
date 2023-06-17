@@ -37,7 +37,7 @@ Projeto desenvolvido para facilitar a vida de quem não sabe como calcular o con
 
 ## 👨🏻‍💻 Deploy
 
-<a target="_blank" href="#">CLICK PARA ACESSAR!</a>
+<a target="_blank" href="https://calculadora-de-consumo.vercel.app/">CLICK PARA ACESSAR!</a>
 
 ## :memo: Licença
 
