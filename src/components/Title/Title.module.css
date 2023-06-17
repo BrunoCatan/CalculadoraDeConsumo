@@ -4,3 +4,8 @@
     margin: 2rem;
     color: #fff;
 }
+@media (max-width: 300px) {
+    .title {
+        font-size: 5.5vmin;
+    }
+}
