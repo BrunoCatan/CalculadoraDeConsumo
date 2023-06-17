@@ -11,11 +11,11 @@ function App() {
     const [input2, setInput2] = useState("");
     const [result, setResult] = useState(0);
 
-    const handleInput1Change = (event) => {
+    const handleInput1Change = (event: any) => {
         setInput1(Number(event.target.value));
     };
 
-    const handleInput2Change = (event) => {
+    const handleInput2Change = (event: any) => {
         setInput2(Number(event.target.value));
     };
 
