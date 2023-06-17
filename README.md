@@ -19,7 +19,7 @@ Desenvolvido para calcular o consumo de combustível no seu veiculo.
 <br>
 
 <p align="center">
-  <img alt="Calculadora de consumo" src="./.github/project.png" width="100%">
+  <img alt="Calculadora de consumo" src="./.github/Project.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
