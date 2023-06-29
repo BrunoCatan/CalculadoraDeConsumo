@@ -3,7 +3,7 @@ import styles from "./Result.module.css";
 const Result = ({ value }: any) => {
     return (
         <form className={styles.container}>
-            <label>Resultado:</label>
+            <label>Km/L</label>
             <input className={styles.input} value={value} disabled />
         </form>
     );
